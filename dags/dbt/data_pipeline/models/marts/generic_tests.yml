@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fct_orders
+    columns:
+      - name: order_key
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_tpch_orders')
+              field: order_key
+              severity: warn   # this ensures the test only warns instead of failing
+
+      - name: customer_key
+        tests:
+          - not_null   # customer_key should always be present
+
+      - name: order_status
+        tests:
+          - accepted_values:
+              values: ['P', 'O', 'F']   # allowed order states: Pending, Open, Finished

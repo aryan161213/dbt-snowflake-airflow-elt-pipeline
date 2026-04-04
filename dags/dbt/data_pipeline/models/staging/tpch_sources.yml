@@ -1,0 +1,24 @@
+version: 2  #dbt standard uses version 2 for source files 
+
+#THESE ARE OUR SOURCE TABLES
+
+#here we are defining the source from which staging file data will come which we work on here.
+
+sources:
+  - name: tpch  #here we can give any name
+    database: snowflake_sample_data
+    schema: tpch_sf1
+    tables:  
+      - name: orders                        #YEH HAI ORDERS SOURCE KE LIYE
+        columns: 
+            - name: o_orderkey
+              tests: 
+                - unique
+                - not_null
+      - name: lineitem                      #YEH HAI LINEITEM SOURCE KELIYE
+        columns:
+          - name: l_orderkey
+            tests:
+              - relationships:
+                  to: source('tpch', 'orders')
+                  field: o_orderkey

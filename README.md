@@ -15,7 +15,7 @@ The pipeline processes TPCH sample data and builds a clean **fact table (`fct_or
 ##  Architecture
 
 ```
-Source (TPCH)
+Source raw data
       ↓
 Snowflake (Load)
       ↓

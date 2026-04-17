@@ -81,7 +81,7 @@ Implemented using dbt:
 
 ### 1. Start Airflow (Astro)
 
-```bash
+``` bash
 astro dev start
 ```
 

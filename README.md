@@ -1,5 +1,24 @@
 #  ELT Data Pipeline using dbt, Snowflake & Airflow
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Data Pipeline Flow](#data-pipeline-flow)
+- [Data Quality Tests](#data-quality-tests)
+- [Orchestration (Airflow)](#orchestration-airflow)
+- [How to Run](#how-to-run)
+- [Key Features](#key-features)
+- [Learnings](#learnings)
+- [Screenshots](#screenshots)
+  - [Airflow DAG](#airflow-dag)
+  - [dbt Lineage](#dbt-lineage)
+  - [dbt Tests](#dbt-tests)
+  - [Snowflake Output](#snowflake-output)
+- [Future Improvements](#future-improvements)
+- [Author](#author)
+
 ##  Overview
 
 This project demonstrates an end-to-end **ELT (Extract, Load, Transform)** data pipeline using modern data engineering tools.

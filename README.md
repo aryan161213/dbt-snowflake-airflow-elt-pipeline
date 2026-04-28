@@ -137,24 +137,9 @@ http://localhost:8080
 
 ## Screenshots
 
-### Airflow DAG
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 1 28 41 PM" src="https://github.com/user-attachments/assets/94cbd589-00ba-4184-9799-27f256310488" />
 
+<img width="1512" height="982" alt="AD2559A0-838E-41A5-8884-2702EBC5E8AB" src="https://github.com/user-attachments/assets/c2cc6695-0c6f-4437-af8f-f65f6fd74472" />
 
-### dbt Lineage
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 08 58 PM" >
-
-
-### dbt Tests
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 13 02 PM" src="https://github.com/user-attachments/assets/bbfebd5d-7294-48db-9768-56a1fffa1363" />
-
-
-### Snowflake Output
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 21 48 PM" src="https://github.com/user-attachments/assets/51ef3a0c-1565-4617-918c-4f541c6270c6" />
-
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 22 10 PM" src="https://github.com/user-attachments/assets/b72480d1-2bcd-436f-a055-c6d9cea2b855" />
-
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 29 02 PM" src="https://github.com/user-attachments/assets/442501b7-feaf-4cf0-92ef-270c16908fe8" />
 
 
 ---

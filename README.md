@@ -142,7 +142,7 @@ http://localhost:8080
 
 
 ### dbt Lineage
-<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 08 58 PM" src="https://github.com/user-attachments/assets/aeddb507-add5-4d94-9008-c86ea946c682" />
+<img width="1512" height="982" alt="Screenshot 2026-04-04 at 2 08 58 PM" >
 
 
 ### dbt Tests
